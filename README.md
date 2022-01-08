@@ -3,7 +3,7 @@ Recommending the finest video games to the finest of nerds
 
 This repository documents the pipeline and database enginereed for video games recommendation. Three types of content are recorded: 
 - the structured database "steam-200k.csv", which is downloaded from the open-source Steam database and namely reused on Kaggle (@Tamber, last update on 2017 via https://www.kaggle.com/tamber/steam-video-games/data)
-- the .ipnyb file "preprocessing.ipnyb" which performs preprocessing on the data
+- the .ipnyb file "preprocessing_baseline.ipnyb" which performs preprocessing on the data
 - the .ipnyb file "final_recommender.ipnyb" which launches the final model tuned on the data
 
 For an end-to-end implementation of the recommender algorithm, the user may follow the suggested workflow: 
