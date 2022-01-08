@@ -1,11 +1,11 @@
 # Video Game Recommender
 Recommending the finest video games to the finest of nerds
 
-Both contributors to this project had different ideas, so we decided to do 2 separate notebooks, each containing different recommenders.
+Both contributors to this project had different ideas, so we decided to do 2 separate notebooks, each containing different models and architectures for the recommenders.
 
-## I. name_of_notebook
+## I. Baseline Recommenders
 
-This repository documents the pipeline and database enginereed for video game recommendation. Two types of content are recorded: 
+This notebook documents the pipeline and database enginereed for video game recommendation. Two types of content are recorded: 
 - the structured database "steam-200k.csv", which is downloaded from the open-source Steam database and namely reused on Kaggle (@Tamber, last update on 2017 via https://www.kaggle.com/tamber/steam-video-games/data)
 - the .ipynb file "Baseline_Recommenders.ipynb" which performs preprocessing on the data and launches three versions of a Recommender Algorithm tuned for the data
 
@@ -14,9 +14,7 @@ For an end-to-end implementation of the recommender algorithm, the user may foll
 
 2) download and launch the C++ builder tool Visual Studio installer
 
-3) dowload and run the preprocessing_baseline.ipynb file
-
-4) download and run the final_recommender.ipynb file 
+3) dowload and run the baseline_recommenders.ipynb file
 
 In particular, the preprocessing file computes a quantitative "score" variable,
 conditioned on the time a player spent on their purchased game, or the fact that they
