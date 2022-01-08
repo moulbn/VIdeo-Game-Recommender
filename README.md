@@ -1,4 +1,4 @@
-# VIdeo Game Recommender
+# Video Game Recommender
 Recommending the finest video games to the finest of nerds
 
 This repository documents the pipeline and database enginereed for video game recommendation. Three types of content are recorded: 
