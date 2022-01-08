@@ -16,7 +16,7 @@ For an end-to-end implementation of the recommender algorithm, the user may foll
 
 3) dowload and run the baseline_recommenders.ipynb file
 
-In particular, the preprocessing file computes a quantitative "score" variable,
+In particular, the preprocessing computes a quantitative "score" variable,
 conditioned on the time a player spent on their purchased game, or the fact that they
 only purchased the game.
 
