@@ -11,7 +11,7 @@ For an end-to-end implementation of the recommender algorithm, the user may foll
 
 2) download and launch the C++ builder tool Visual Studio installer
 
-3) dowload and run the preprocessing.ipnyb file
+3) dowload and run the preprocessing_baseline.ipnyb file
 
 4) download and run the final_recommender.ipnyb file 
 
